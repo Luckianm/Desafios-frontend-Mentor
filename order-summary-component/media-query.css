@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) {
+    body {
+        background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg) no-repeat center top;
+        background-size: 100vw 50vh;
+        background-attachment: fixed;
+    }
+}
