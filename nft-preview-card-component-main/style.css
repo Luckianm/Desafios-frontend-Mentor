@@ -28,27 +28,27 @@ body {
 
 main {
     background-color: var(--cardBg);
-    max-width: 375px;
+    max-width: 23.438rem;
     color: var(--softBlue);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
     margin: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.319);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.319);
 }
 
 #equilibrium {
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.319);
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.319);
 }
 
 h1 {
     color: var(--white);
-    margin: 20px 0px;
+    margin: 1.25rem 0;
     cursor: pointer;
 }
 
@@ -57,8 +57,8 @@ h1:hover {
 }
 
 .info {
-    margin-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
 }
 
 div {
@@ -66,7 +66,7 @@ div {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .eth {
@@ -74,18 +74,18 @@ div {
 }
 
 .eth>img {
-    width: 13px;
-    margin-right: 8px;
+    width: 0.813rem;
+    margin-right: 0.5rem;
 }
 
 .timer>img {
-    width: 17px;
-    margin: 8px;
+    width: 1.063rem;
+    margin: 0.5rem;
 }
 
 hr {
-    margin: 20px;
-    border: 1px solid var(--line);
+    margin: 1.25rem;
+    border: 0.063rem solid var(--line);
 }
 
 .credits {
@@ -95,16 +95,18 @@ hr {
 }
 
 .credits>img {
-    width: 40px;
-    border: 1px solid var(--white);
-    border-radius: 50px;
-    margin-right: 15px;
+    width: 2.5rem;
+    border: 0.063rem solid var(--white);
+    border-radius: 3.125rem;
+    margin-right: 0.938rem;
 }
 
 .credits>p>a {
     color: var(--white);
+    text-decoration: none;
 }
 
-strong:hover {
+p>a:hover {
     color: var(--cyan);
+    
 }
